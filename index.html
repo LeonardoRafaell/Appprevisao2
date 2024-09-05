@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>AppPrevisao</title>
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <h2 class="Titulo">Previsão do Tempo</h2>
+        <input type="text" placeholder="Cidade" class="input-cidade">
+        <button class="btn-pesquisa" onclick="Coletar()">Pesquisar</button>
+        <div class="caixa-media">
+            <p class="Cidade">Aracaju</p>
+            <p class="Temperatura">27°C</p>
+        </div>
+        <div class="caixa-pequena">
+            <p class="Previsao">Ensolarado</p>
+            <img class="Img_Previsao" src="https://openweathermap.org/img/wn/01d.png" alt="">
+        </div>
+        <p class="Umidade">Umidade Relativa do Ar: 72%</p>
+        <p class="Nivel_do_mar">Nivel do mar = 200</p>
+    </div>
+    <script src="main.js"></script>
+</body>
+<html>
